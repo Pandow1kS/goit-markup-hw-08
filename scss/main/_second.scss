@@ -1,0 +1,48 @@
+.section-second {
+    padding-top: 94px;
+    padding-bottom: 47px;
+
+    & ul {
+        display: inline-flex;
+        gap: 30px;
+    }
+
+    & li {
+        max-width: 270px;
+    }
+
+    & h3 {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        color: var(--color-secondary);
+        line-height: 1.7;
+        font-size: 14px;
+        letter-spacing: 0.42px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.sprite-bg {
+    background-color: var(--color-icon);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & svg {
+        width: 70px;
+        height: 70px;
+    }
+}
+

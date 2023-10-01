@@ -1,0 +1,90 @@
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--color-icon);
+
+
+    &__box {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__list {
+        border-radius: 0px 0px 4px 4px;
+        background: #fff;
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    & h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.08px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        padding: 30px 0;
+    }
+
+    & h3 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.48px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        text-align: center;
+        color: var(--color-secondary);
+        font-size: 16px;
+        letter-spacing: 0.48px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__icon {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    &__icon a {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            background-color: var(--color-brand);
+        }
+
+    }
+
+    &__icon svg {
+        fill: var(--color-sprite1);
+        width: 20px;
+        height: 20px;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+}
+
+.section-team__icon a:hover svg,
+.section-team__icon a:focus svg {
+    fill: var(--color-primary-light);
+}
